@@ -1,18 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import App from './App';
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <>
-//     <h1 id="title">
-//       <span>Hello world</span>
-//     </h1>
-//   </>
-// );
+import './index.scss'
+
 ReactDOM.render(
- <h1 id="title">
-   <span>Hello world!</span>
- </h1>,
-document.getElementById('root'),
+  <App />,
+  document.getElementById('root'),
 );
